@@ -1,0 +1,54 @@
+input {
+	width:93%;
+	padding: 10pt;
+	margin: 10pt 10pt 10pt 20pt;
+	box-sizing: border-box;
+}
+
+label {
+	margin: 10pt 0 0 20pt;
+}
+
+h2 {
+	margin-bottom: 20pt;
+}
+
+input:focus{
+	border: 3pt solid #555;
+}
+
+textarea{
+	width:93%;
+	padding: 10pt;
+	margin: 10pt 10pt 10pt 20pt;
+	box-sizing: border-box;
+	font-family: 'Georgia', Times, "Times New Roman", serif;
+	height: 100pt;
+	max-width: 600pt;
+	max-height:150pt;
+}
+
+input[type=button] {
+	font-family: 'Georgia', Times, "Times New Roman", serif;
+	color: white;
+	background-color: #4aaaa5;
+	width: 100pt;
+	font-size: 14pt;
+	margin: 20pt;
+}
+
+.banner {
+	background-color: #4aaaa5;
+	color: white;
+	text-align: center;
+	width: 300px;
+	position: absolute;
+	/*top: -70pt;*/
+	/*left: 20pt;*/
+	font-size: 14pt;
+	padding: 10pt 0 10pt 0;
+}
+
+.linkedTiles {
+	margin: 20pt;
+}
