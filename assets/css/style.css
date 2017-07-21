@@ -1,50 +1,92 @@
 body {
 	background: url("https://www.toptal.com/designers/subtlepatterns/patterns/concrete_seamless.png");
 	width: 960pt;
-	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-family: 'Georgia', Times, "Times New Roman", serif;
 	background-color: lightgray;
 	color: #777777;
 }
 
 Header {
-	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-family: 'Georgia', Times, "Times New Roman", serif;
 	text-align: right;
+	text-decoration: none;
 	background-color: #ffffff;
 	padding: 20pt;
-	padding-right: 40pt;
+	padding-right: 120pt;
 	border-color: #cccccc;
 	border-style: solid;
-	border-width: 2pt;
+	border-width: 1pt;
+	color: #777777;
+	word-spacing: 10pt;
 }
 
+a.link{
+	color: #777777;
+}
+
+a:visited{
+	color: #777777;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+a {
+	text-decoration: none;
+}
+
+.HeaderName {
+	position: absolute;
+	top: 0pt;
+	left: 20pt;
+	float: left;
+	padding: 17.5pt;
+	margin-left: 15pt;
+	color: white;
+	background-color:#4aaaa5;
+	font-weight:bold;
+	font-size: 19pt;
+	word-spacing: 0pt;
+}
+
+
 section{
-	border-color: #cccccc;
-	border-width: 2pt;
-	border-style: solid;
+	border: 1pt solid #cccccc;
 }
 
 #Image {
 	float: left;
+	margin-left: 20pt;
+	margin-top: 20pt;
+	margin-right: 20pt;
 }
 
 h2 { 
 	color:#4aaaa5;
-	padding: 20pt;
-	font-size: 25pt;
+	padding-top: 20pt; 
+	padding-bottom: 20pt;
+	font-size: 23pt;
+	border-bottom: 1.5pt solid lightgray;
+	margin-left: 20pt; 
+	margin-right: 20pt;
+	font-weight: bold;
 }
 
 h3 { 
-	padding: 20pt;
-	color: #4aaaa5;
-	font-size: 20pt;
-}
-
-#Image{
-	margin:5pt;
+	color:#4aaaa5; 
+	padding-bottom: 20pt;
+	font-size: 17pt;
+	font-weight: bold;
+	border-bottom: 1pt solid lightgray;
+	margin-right: 10pt;
+	margin-bottom: 15pt;
 }
 
 p {
-	padding: 5pt;
+	padding: 20pt;
+	padding-top: 15pt;
+	line-height: 1.75;	
 }
 
 #Section1 {
@@ -58,27 +100,20 @@ p {
 
 #Section2 {
 	float:left;
-	width: 25%;
+	width: 19%;
 	background-color: #ffffff;
 	margin-top: 20pt;
 	margin-left: 20pt;
+	justify-content: center;
+	padding: 20pt;
 }
 
 .icon {
-	width: 100pt;
-	height: 100pt;
+	height: 52pt;
+	width: 52pt;
+	margin: 2pt;
 }
 
-.HeaderName {
-	position: absolute;
-	top: 2pt;
-	left: 20pt;
-	float: left;
-	padding: 20pt;
-	margin-left: 20pt;
-	color: white;
-	background-color:#4aaaa5;
-}
 
 .clear {
 	clear: both;
@@ -92,4 +127,8 @@ footer {
 	padding: 20pt;
 	text-align: center;
 	margin-top: 20pt;
+	color: lightgray;
+	position: fixed;
+	bottom: 0pt;
+	width: 100%;
 }
