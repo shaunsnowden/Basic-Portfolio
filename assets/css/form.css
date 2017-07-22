@@ -42,13 +42,17 @@ input[type=button] {
 	color: white;
 	text-align: center;
 	width: 300px;
-	position: absolute;
+	position: relative;
 	/*top: -70pt;*/
 	/*left: 20pt;*/
 	font-size: 14pt;
 	padding: 10pt 0 10pt 0;
+	top: -70pt;
+	opacity:.93;
 }
 
-.linkedTiles {
+.container {
 	margin: 20pt;
+	float: left;
 }
+
